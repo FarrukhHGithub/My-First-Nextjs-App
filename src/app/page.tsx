@@ -1,8 +1,93 @@
 import Image from "next/image";
+import Link from "next/link"; // Import the Link component from next/link
 
 export default function Home() {
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px', lineHeight: '1.6' }}>
+      {/* Navigation Buttons */}
+      <div style={{ display: 'flex', gap: '15px', marginBottom: '20px' }}>
+        <Link href="frontend/auth/login">
+          <button
+            style={{
+              padding: '10px 20px',
+              fontSize: '16px',
+              borderRadius: '4px',
+              backgroundColor: '#0070f3',
+              color: '#fff',
+              border: 'none',
+              cursor: 'pointer',
+            }}
+          >
+            login
+          </button>
+        </Link>
+
+        <Link href="frontend/other/blog">
+          <button
+            style={{
+              padding: '10px 20px',
+              fontSize: '16px',
+              borderRadius: '4px',
+              backgroundColor: '#0070f3',
+              color: '#fff',
+              border: 'none',
+              cursor: 'pointer',
+            }}
+          >
+            Blog
+          </button>
+        </Link>
+
+        <Link href="frontend/auth/signup">
+          <button
+            style={{
+              padding: '10px 20px',
+              fontSize: '16px',
+              borderRadius: '4px',
+              backgroundColor: '#0070f3',
+              color: '#fff',
+              border: 'none',
+              cursor: 'pointer',
+            }}
+          >
+            Register
+          </button>
+        </Link>
+
+        <Link href="frontend/other/about">
+          <button
+            style={{
+              padding: '10px 20px',
+              fontSize: '16px',
+              borderRadius: '4px',
+              backgroundColor: '#0070f3',
+              color: '#fff',
+              border: 'none',
+              cursor: 'pointer',
+            }}
+          >
+            About
+          </button>
+        </Link>
+
+        <Link href="frontend/other/home">
+          <button
+            style={{
+              padding: '10px 20px',
+              fontSize: '16px',
+              borderRadius: '4px',
+              backgroundColor: '#0070f3',
+              color: '#fff',
+              border: 'none',
+              cursor: 'pointer',
+            }}
+          >
+            Home
+          </button>
+        </Link>
+      </div>
+
+      {/* Main Content */}
       <h1 style={{ fontSize: '32px', fontWeight: 'bold', color: '#333' }}>
         Welcome to My Next.js Project
       </h1>

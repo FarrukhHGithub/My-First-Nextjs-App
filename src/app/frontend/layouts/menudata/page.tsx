@@ -2,15 +2,9 @@
 //     People,
 //     ListAlt,
 //     Category,
-
-//     // Search,
-//     Group as GroupIcon,
-//     Dashboard as DashboardIcon,
-//     LocalAtm as LocalAtmIcon,
 //   } from "@mui/icons-material";
 // // import BadgeIcon from '@mui/icons-material/Badge';
 // const MenuData = [
-//     { label: "Dashboard", icon: <DashboardIcon />, path: "/" },
 //     {
 //       label: "Student Information",
 //       icon: <ListAlt />,
